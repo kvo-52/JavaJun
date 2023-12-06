@@ -1,19 +1,46 @@
 package gb.lesson2.hw02;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.*;
+
 public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args) throws ClassNotFoundException {
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Animal[] animals = {
+                new Dog("Лися", 3),
+                new Cat("Соня", 5),
+                new Dog("Джек", 9),
+                new Cat("Уголек", 4),
+                new Cat("Барсик", 2)
+        };
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        Set<Class<?>> classSet = new HashSet<>();
+        for (Animal a : animals) {
+            classSet.add(a.getClass());
         }
+        for (Class<?> clazz : classSet) {
+            System.out.println("Класс: " + clazz.getName());
+            System.out.println("Поля класса");
+            Arrays.stream(clazz.getDeclaredFields())
+                    .forEach(field -> System.out.println("\t" + field.getName()+" в классе"));
+            Arrays.stream(clazz.getSuperclass().getDeclaredFields())
+                    .forEach(field -> System.out.println("\t" + field.getName()+" в суперклассе"));
+            System.out.println("Методы класса");
+            Arrays.stream(clazz.getDeclaredMethods())
+                    .forEach(field -> System.out.println("\t" + field.getName()+" в классе"));
+            Arrays.stream(clazz.getSuperclass().getDeclaredMethods())
+                    .forEach(field -> System.out.println("\t" + field.getName()+" в суперклассе"));
+            System.out.println("-----------------------------------------------");
+
+        }
+        for (Animal a : animals) {
+            System.out.println(a);
+            try {
+                Method makeSoundMethod = a.getClass().getMethod("makeSound");
+                makeSoundMethod.invoke(a);
+            } catch (InvocationTargetException | IllegalAccessException | NoSuchMethodException ignored) {}
+        }
+
     }
 }
