@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson1.task2;
+package gb.lesson1.task2;
 
 /**
  * Снек (легкая закуска)
