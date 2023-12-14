@@ -1,0 +1,1 @@
+<ArrayList><item><name>Иванов</name><age>15</age><gpa>4.5</gpa><done>false</done></item><item><name>Петров</name><age>14</age><gpa>5.0</gpa><done>false</done></item><item><name>Сидоров</name><age>16</age><gpa>4.9</gpa><done>true</done></item><item><name>Козлов</name><age>18</age><gpa>4.1</gpa><done>false</done></item></ArrayList>

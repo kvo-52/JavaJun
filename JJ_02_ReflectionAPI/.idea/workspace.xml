@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9317e57-878a-4ca3-b85d-7b49d4522d5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a9317e57-878a-4ca3-b85d-7b49d4522d5a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JavaJunior/JJ_02_ReflectionAPI",
+    "last_opened_file_path": "D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JavaJunior/JJ_01_StreamAPI",
     "onboarding.tips.debug.path": "D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JJ_02_ReflectionAPI/src/main/java/gb/lesson2/Main.java"
   }
 }]]></component>
