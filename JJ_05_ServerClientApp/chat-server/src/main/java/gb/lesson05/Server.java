@@ -5,15 +5,15 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
-
     private final ServerSocket serverSocket;
+
 
     public Server(ServerSocket serverSocket) {
         this.serverSocket = serverSocket;
     }
 
     public void runServer(){
-        try {
+        try {System.out.printf("local ip=%s, port=%d\n",serverSocket.getInetAddress().getHostAddress(),serverSocket.getLocalPort());
             while (!serverSocket.isClosed()) {
                 Socket socket = serverSocket.accept();
                 ClientManager clientManager = new ClientManager(socket);
