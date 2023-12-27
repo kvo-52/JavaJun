@@ -4,45 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6f7e9c7-be2f-4899-ab58-510139e52a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gb/hw04/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c6f7e9c7-be2f-4899-ab58-510139e52a59" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Zqmx0Cni1vEfeUysahLIXozbCE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JJ_04_DB",
-    "onboarding.tips.debug.path": "D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JJ_04_DB/src/main/java/gb/hw04/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JavaJunior/JJ_04_DB&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/GeekBrains/БЛОК-3_Developer/Developer_Java/3. JavaJunior/JJ_04_DB/src/main/java/gb/hw04/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GeekBrains\БЛОК-3_Developer\Developer_Java\3. JavaJunior\JavaJunior\JJ_04_DB\src\main\java\lesson04\hw04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentApp">
+    <configuration name="StudentApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lesson04.hw04.StudentApp" />
+      <module name="JJ_04_DB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson04.task2.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson04.task2.Program" />
+      <module name="JJ_04_DB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson04.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentsDBConfig1" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -78,6 +105,109 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="courses-db1" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mysql:latest" />
+          <option name="containerName" value="courses-db1" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_ROOT_PASSWORD" />
+                <option name="value" value="password" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="MYSQL_DATADASE" />
+                <option name="value" value="courses-db1" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="3307" />
+                <option name="hostPort" value="3307" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="postgresGBtest" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:15.5-bullseye" />
+          <option name="containerName" value="postgresGBtest" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="qasw111" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_NAME" />
+                <option name="value" value="postgresGBTest" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5432" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="postgresGBtest1" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:15.5-bullseye" />
+          <option name="containerName" value="postgresGBtest1" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="qasw111" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="root" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="5432" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.StudentApp" />
+      <item itemvalue="Application.lesson04.task2.Program" />
+      <item itemvalue="Docker.StudentsDBConfig1" />
+      <item itemvalue="Docker.courses-db1" />
+      <item itemvalue="Docker.postgresGBtest" />
+      <item itemvalue="Docker.postgresGBtest1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.postgresGBtest1" />
+        <item itemvalue="Docker.postgresGBtest" />
+        <item itemvalue="Application.lesson04.task2.Program" />
+        <item itemvalue="Docker.courses-db1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,16 +219,5 @@
       <updated>1703070947134</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/gb/hw04/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

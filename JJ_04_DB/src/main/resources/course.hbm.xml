@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "https://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="lesson04.models.Course" table="courses">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="title" type="java.lang.String">
+            <column name="title" />
+        </property>
+        <property name="duration" type="java.lang.String">
+            <column name="duration" />
+        </property>
+    </class>
+</hibernate-mapping>
